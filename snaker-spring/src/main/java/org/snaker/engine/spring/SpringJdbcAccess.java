@@ -124,7 +124,7 @@ public class SpringJdbcAccess extends AbstractDBAccess implements DBAccess {
 	}
 
     public Object queryCount(String sql, Object... args) {
-        return template.queryForLong(sql, args);
+        return template.queryForObject(sql, args, Long.class);
     }
 	
 	public void setLobHandler(LobHandler lobHandler) {

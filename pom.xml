@@ -49,6 +49,7 @@
         <connection>scm:git:git@github.com:snakerflow/snakerflow.git</connection>
         <developerConnection>scm:git:git@github.com:snakerflow/snakerflow.git</developerConnection>
     </scm>
+	<!-- 
 	<build>
 		<plugins>
 			<plugin>
@@ -67,4 +68,5 @@
 			</plugin>
 		</plugins>
 	</build>
+	 -->
 </project>
