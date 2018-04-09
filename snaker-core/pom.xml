@@ -38,6 +38,18 @@
     </scm>
 
     <dependencies>
+    	<dependency>
+			<groupId>com.tuisitang</groupId>
+			<artifactId>tst-modules-persist</artifactId>
+			<version>1.0</version>
+			<exclusions>
+				<exclusion>
+					<groupId>*</groupId>
+					<artifactId>*</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		
         <dependency>
             <groupId>cglib</groupId>
             <artifactId>cglib-nodep</artifactId>
